@@ -433,7 +433,7 @@ font-1 = "FontAwesome:size=13;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = bspwm xwindow
+modules-left = bspwm arch-updates aur-updates xwindow
 modules-center = kernel
 modules-right = pavolume memory2 cpu2 date beats
 
@@ -1830,7 +1830,7 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = ""
 format-prefix-foreground = #FFBB00
-format-prefix-underline = #FFBB00
+format-underline = #FFBB00
 
 ################################################################################
 
