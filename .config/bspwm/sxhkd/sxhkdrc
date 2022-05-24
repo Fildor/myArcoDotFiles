@@ -6,21 +6,21 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-# Vivaldi
+# Browser
 super + F1
-	vivaldi-stable
+	firefox
 
-# Atom
+# Editor
 super + F2
-	atom
+	code
 
 #Inkscape
-super + F3
-    inkscape
+#super + F3
+#    inkscape
 
 #Gimp
-super + F4
-    gimp
+#super + F4
+#    gimp
 
 #Meld
 super + F5
@@ -30,21 +30,22 @@ super + F5
 super + F6
     vlc --video-on-top
 
-#Virtualbox
-super + F7
-    virtualbox
+#Virtual Machines
+#super + F7
+# TODO : QEMU + libvirt
+#    virtualbox
 
 #Thunar
 super + F8
     thunar
 
 #Evolution
-super + F9
-    evolution
+#super + F9
+#    evolution
 
 #Spotify
-super + F10
-    spotify
+#super + F10
+#    spotify
 
 #Rofi Fullscreen
 super + F11
@@ -59,12 +60,12 @@ super + F12
 #################################################################
 
 #Atom
-super + e
-    atom
+#super + e
+#    atom
 
 #Browser
-super + w
-    vivaldi-stable
+#super + w
+#    vivaldi-stable
 
 #Conky-toggle
 super + c
@@ -72,7 +73,7 @@ super + c
 
 #Htop
 super + h
-    urxvt 'htop task manager' -e htop
+    alacritty -t 'htop Task Manager' -e htop
 
 #archlinux-logout
 super + x
@@ -82,17 +83,17 @@ super + x
 super + r
     rofi-theme-selector
 
-#Urxvt
+#Terminal
 super + t
-    urxvt
+    alacritty
 
 #Pavucontrol
 super + v
     pavucontrol
 
 #Pragha
-super + m
-    pragha
+#super + m
+#    pragha
 
 #alacritty
 super + Return
@@ -128,12 +129,6 @@ super + shift + d
 super + shift + s
 	pkill -USR1 -x sxhkd
 
-#Keyboard dependent
-#super + shift + KP_Enter
-#	thunar
-
-
-#################################################################
 # CONTROL + ALT KEYS
 #################################################################
 
@@ -154,12 +149,12 @@ ctrl + alt + Prior
     conky-rotate -p
 
 #File-Manager
-ctrl + alt + b
-     thunar
+#ctrl + alt + b
+#     thunar
 
 #Catfish
-ctrl + alt + c
-     catfish
+#ctrl + alt + c
+#     catfish
 
 #Chromium
 ctrl + alt + g
@@ -174,12 +169,12 @@ ctrl + alt + i
      nitrogen
 
 #archlinux-logout
-ctrl + alt + k
-     archlinux-logout
+#ctrl + alt + k
+#     archlinux-logout
 
 #archlinux-logout
-ctrl + alt + l
-    archlinux-logout
+#ctrl + alt + l
+#    archlinux-logout
 
 #Pamac-manager
 ctrl + alt + p
@@ -198,8 +193,8 @@ ctrl + alt + r
   rofi-theme-selector
 
 #Spotify
-ctrl + alt + s
-   spotify
+#ctrl + alt + s
+#   spotify
 
 #alacritty
 ctrl + alt + Return
@@ -210,8 +205,8 @@ ctrl + alt + t
     alacritty
 
 #Vivaldi
-ctrl + alt + v
-    vivaldi-stable
+#ctrl + alt + v
+#    vivaldi-stable
 
 #Xfce4-appfinder
 ctrl + alt + a
