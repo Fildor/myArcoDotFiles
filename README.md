@@ -26,7 +26,7 @@ This is my personal instance of the bare repository dotfile storage pattern.
 
 You may have to make sure, you are logged in or have other measures of access-approval like SSH-Keys.
 
-Now, in you next install, all you need to do is to checkout the repo and you'll have all your configuration. 
+Now, in your next install, all you need to do is to checkout the repo and you'll have all your configuration. 
 
 ## What else can you do with this?
 
