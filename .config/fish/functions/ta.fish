@@ -1,4 +1,4 @@
 # Defined in - @ line 1
-function ta --wraps='todo-txt add' --description 'alias ta todo-txt add '
-  todo-txt -d ~/.config/todo-txt/todo.cfg add $argv;
+function ta --wraps='todo.sh add' --description 'alias ta todo.sh add '
+  todo.sh add $argv;
 end
