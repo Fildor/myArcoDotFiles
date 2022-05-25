@@ -13,6 +13,7 @@ This is my personal instance of the bare repository dotfile storage pattern.
 
 ## How it works
 - Create a dotfile-repo on Git(Hub|Lab) or any other git repo service provider.
+- Make sure you are in your HOME directory ( "~" or "/home/yourusername" )
 - Clone it to a local **bare** repo with `git clone --bare <your online repo> $HOME/.mydotfiles`
 - I recommend to set an Alias in your favorite shell.
   - bash: Add this to your .bashrc `alias config='/usr/bin/git --git-dir=$HOME/.mydotfiles/ --work-tree=$HOME'`
@@ -26,3 +27,12 @@ This is my personal instance of the bare repository dotfile storage pattern.
 You may have to make sure, you are logged in or have other measures of access-approval like SSH-Keys.
 
 Now, in you next install, all you need to do is to checkout the repo and you'll have all your configuration. 
+
+## What else can you do with this?
+
+Well, having your dotfiles in a source versioning system, you can of course branch off from your mainline,
+for example if you are on a ricing spree and you are not sure if you want to keep your changes or if you 
+are going to mess up your system.
+
+If you like your changes, you can merge them into the main branch. If not: just checkout the main branch 
+and delete the ricing branch.
