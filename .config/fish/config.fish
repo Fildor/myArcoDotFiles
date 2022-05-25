@@ -7,5 +7,6 @@ if status is-interactive
     abbr -a gc git commit -m 
     abbr -a ga git add .
     abbr -a gp git pull
+    abbr -a t todo.sh 
 end
 starship init fish | source
