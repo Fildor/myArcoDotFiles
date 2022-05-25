@@ -1,0 +1,12 @@
+set -l todo_commands ls lsa lsc lsproj add do rm pri depri help
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a ls -d 'List Tasks containing TERM(s).'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a lsa -d 'List all Tasks from todo.txt and done.txt containing TERM (or not -TERM).'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a lsc -d 'List contexts (start with an @ sign in todo.txt).'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a lsproj -d 'List projects (start with a + sign in todo.txt).'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a add -d 'Adds a Task to your todo.txt file.'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a archive -d 'Moves all done tasks from todo.txt to done.txt abd removes blank lines.'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a do -d 'Mark Task as DONE.'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a rm -d 'Remove Task. If TERM is given, remove TERM from Task.'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a pri -d 'Add/Replace PRIO on Task'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a depri -d 'Remove PRIO on Task'
+complete -c todo.sh -f -n "not __fish_seen_subcommand_from $todo_commands" -a help -d 'Print help'
