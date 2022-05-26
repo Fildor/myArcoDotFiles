@@ -5,11 +5,12 @@ SETUVAR _fish_abbr_ea:exa\x20\x2dla\x20\x2d\x2dicons
 SETUVAR _fish_abbr_el:exa\x20\x2dl\x20\x2d\x2dicons
 SETUVAR _fish_abbr_ga:git\x20add\x20\x2e
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_gco:git\x20checkout
 SETUVAR _fish_abbr_gp:git\x20pull
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_hx:helix
-SETUVAR _fish_abbr_t:todo\x2esh
-SETUVAR _fish_abbr_td:todo\x2esh
+SETUVAR _fish_abbr_todo:todo\x2esh
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:blue
