@@ -435,7 +435,7 @@ font-3 = "Noto Sans Mono:size=10;0"
 
 modules-left = bspwm arch-updates aur-updates xwindow
 modules-center = kernel
-modules-right = pavolume memory2 cpu2 date beats
+modules-right = volume memory2 cpu2 date beats
 
 tray-detached = false
 tray-offset-x = 0
